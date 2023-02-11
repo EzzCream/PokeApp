@@ -1,4 +1,32 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+body {
 	margin: 0;
+	background-color: #f5dc80;
+}
+.navigation-bar {
+	display: flex;
+	background-color: #66462c;
+	margin: 0;
+	padding: 1rem 6rem 1rem 6rem;
+	height: 4.5rem;
+	width: 100%;
+}
+.logo {
+	display: flex;
+	flex-direction: row;
+	width: 70%;
+}
+.logo img {
+	width: auto;
 	padding: 0;
+}
+.logo h2 {
+	color: white;
+	font-size: 2rem;
+	margin: 0;
+	padding: 1.25rem 2rem 1.25rem 2rem;
+	font-family: 'Chewy', cursive;
+	word-spacing: 0.1rem;
+	letter-spacing: 0.1rem;
+	font-weight: 800;
 }
