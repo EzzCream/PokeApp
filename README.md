@@ -1,5 +1,5 @@
 # PokeApp
-Entrega 3 bootcamp
+Entrega 3 bootcamp  Equipo #4
 ### Bienvenido proyecto PoketApp 
 
 - este proyecto se ha creo como una practica de Ucamp , el cual se diseño con  :
