@@ -21,7 +21,7 @@ Entrega 3 bootcamp  Equipo #4
 
 
 ### Introducción 
-Este proyecto  contiene una api POKEMON .
+Este proyecto contiene una api POKEMON. En la cual podrás ver los datos más importante de cada pokemon; desde su altura, peso, hasta sus habilidades.
 
 ### 
 Equipo 4
