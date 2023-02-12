@@ -9,7 +9,7 @@ Entrega 3 bootcamp  Equipo #4
 - JavaScript 
 
 
-### Descripcion 
+### Descripción 
 - Graficos con Chart.Js
 - Canvas
 - Fetch o axios para consumo de datos 
@@ -20,7 +20,7 @@ Entrega 3 bootcamp  Equipo #4
 - JavaScript
 
 
-### Introduccion 
+### Introducción 
 Este proyecto  contiene una api POKEMON .
 
 ### 
