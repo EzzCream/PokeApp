@@ -1,5 +1,4 @@
 import { callPoke } from './services/axios.js';
-import './style.css';
 
 const { name, sprites, types, height, id, weight, abilities } =
 	await callPoke();

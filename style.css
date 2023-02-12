@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
-body{
-	background-color: #f5dc80!important; 
+body {
+	background-color: #f5dc80 !important;
 	margin: 0;
 }
 .navigation-bar {
@@ -9,7 +9,7 @@ body{
 	margin: 0;
 	padding: 1rem 6rem 1rem 6rem;
 	height: 4.5rem;
-	width: auto%;
+	width: auto;
 }
 .logo {
 	display: flex;
@@ -33,6 +33,10 @@ body{
 .caja {
 	background-color: #f6bc60;
 	border-radius: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .main {
@@ -86,14 +90,14 @@ body{
 		'fortalezas stats'
 		'fortalezas stats';
 }
-.footer{
-	display:block;
+.footer {
+	display: block;
 	background-color: #66462c;
 	margin: 0;
 	padding: 1rem 6rem 1rem 6rem;
 	height: 4.5rem;
 }
-.footer li{
+.footer li {
 	list-style-type: none;
 	display: inline;
 	padding: 0 1.5rem;
@@ -103,8 +107,8 @@ body{
 	font-weight: 400;
 	color: white;
 }
-.footer p{
-	margin: .2rem 0 0 0;
+.footer p {
+	margin: 0.2rem 0 0 0;
 	padding: 0 1.8rem;
 	float: right;
 	font-family: 'Chewy', cursive;
@@ -114,7 +118,7 @@ body{
 }
 
 /* Responsive tablets */
-@media screen and (min-width:768px) and (max-width:1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 	.logo {
 		display: flex;
 		flex-direction: row;
@@ -134,14 +138,14 @@ body{
 		letter-spacing: 0.1rem;
 		font-weight: 800;
 	}
-	.footer{
-		display:block;
+	.footer {
+		display: block;
 		background-color: #66462c;
 		margin: 0;
 		padding: 1rem 6rem 1rem 6rem;
 		height: 4.5rem;
 	}
-	.footer li{
+	.footer li {
 		list-style-type: none;
 		display: inline;
 		padding: 0 0.5rem;
@@ -151,8 +155,8 @@ body{
 		font-weight: 400;
 		color: white;
 	}
-	.footer p{
-		margin: .5rem 0;
+	.footer p {
+		margin: 0.5rem 0;
 		padding: 0 1.5rem;
 		float: right;
 		font-family: 'Chewy', cursive;
@@ -160,10 +164,12 @@ body{
 		font-weight: 400;
 		color: white;
 	}
-	
+}
+img {
+	width: 200px;
 }
 /* Responsive móviles */
-@media screen and (max-width:767px){
+@media screen and (max-width: 767px) {
 	.navigation-bar {
 		display: flex;
 		background-color: #66462c;
@@ -172,9 +178,9 @@ body{
 		height: 3.5rem;
 		width: auto;
 	}
-	.main{
+	.main {
 		padding: 0;
-		margin:2rem;
+		margin: 2rem;
 	}
 	.logo {
 		flex-direction: row;
@@ -184,7 +190,7 @@ body{
 		width: auto;
 		padding: 0;
 	}
-	
+
 	.logo h2 {
 		color: white;
 		font-size: 1rem;
@@ -195,26 +201,27 @@ body{
 		letter-spacing: 0.1rem;
 		font-weight: 600;
 	}
-	.caja{
+	.caja {
 		width: auto;
 	}
-	
+
 	#informacion {
 		display: grid;
 		grid-template-columns: 100%;
-		grid-template-rows: repeat(2,300px);
+		grid-template-rows: repeat(2, 300px);
 		row-gap: 20px;
 		column-gap: 5px;
 		align-self: center;
 		text-align: center;
-		grid-template-areas: 'pokemon pokemon'
-							 'datos datos';
+		grid-template-areas:
+			'pokemon pokemon'
+			'datos datos';
 	}
 	#estadisticas {
 		margin-top: 20px;
 		display: grid;
 		grid-template-columns: 100%;
-		grid-template-rows: repeat(2,250px);
+		grid-template-rows: repeat(2, 250px);
 		row-gap: 20px;
 		column-gap: 5px;
 		align-self: center;
@@ -223,14 +230,14 @@ body{
 			'fortalezas fortalezas'
 			'stats stats';
 	}
-	.footer{
-		display:block;
+	.footer {
+		display: block;
 		background-color: #66462c;
 		margin: 0;
-		padding:1rem 1.5rem 1rem 1.5rem;
+		padding: 1rem 1.5rem 1rem 1.5rem;
 		height: 4.5rem;
 	}
-	.footer li{
+	.footer li {
 		list-style-type: none;
 		display: inline;
 		padding: 0 0.25rem;
@@ -240,8 +247,8 @@ body{
 		font-weight: 400;
 		color: white;
 	}
-	.footer p{
-		margin: .5rem 0;
+	.footer p {
+		margin: 0.5rem 0;
 		padding: 0 1.5rem;
 		float: right;
 		font-family: 'Chewy', cursive;
@@ -249,3 +256,4 @@ body{
 		font-weight: 400;
 		color: white;
 	}
+}
