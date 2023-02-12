@@ -2,7 +2,7 @@
 Entrega 3 bootcamp  Equipo #4
 ### Bienvenido proyecto PoketApp 
 
-- este proyecto se ha creo como una practica de Ucamp , el cual se diseño con  :
+- Este proyecto se ha creo como una practica de Ucamp , el cual se diseño con  :
 
 - HTML5
 - CSS
@@ -10,21 +10,21 @@ Entrega 3 bootcamp  Equipo #4
 
 
 ### Descripcion 
-- graficos con Chart.Js
-- canvas
-- fetch o axios para consumo de datos 
-- modularizacion con import y export
-- uso de promesa o async-await
+- Graficos con Chart.Js
+- Canvas
+- Fetch o axios para consumo de datos 
+- Modularizacion con import y export
+- Uso de promesa o async-await
 - HTML5
 - CSS
 - JavaScript
 
 
 ### Introduccion 
-este proyecto  contiene una api POKEMON .
+Este proyecto  contiene una api POKEMON .
 
 ### 
-equipo 4
+Equipo 4
 - Alexia Mata
 - Miguel Garza
 - Óscar Rodríguez
