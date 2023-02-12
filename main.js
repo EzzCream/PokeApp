@@ -1,6 +1,5 @@
-import axios from 'axios';
 import { getRandomInt } from './helpers/getNumerRandom.js';
-import './style.css';
+
 
 async function callPoke() {
 	const { data } = await axios.get(
@@ -8,10 +7,10 @@ async function callPoke() {
 	);
 	const { name, sprites } = data;
 	const imgPokemon = sprites.other.home.front_default;
-	document.querySelector('#app').innerHTML = `
+	document.querySelector('.pokemon').innerHTML = `
     <div>
       <h1>${name}</h1>
-      <img src="${imgPokemon}" alt="pokemon">
+      <img height= 280px width=60% src="${imgPokemon}" alt="pokemon">
     </div>
   `;
 }
