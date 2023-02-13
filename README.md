@@ -1,6 +1,9 @@
 # PokeApp
 Alguna vez has querido saber que pokemon eres? Curiosamente yo si JAJA
-Te mostramos la web que te muestra que pokemon eres, las estadisticas, habilidades y aspectos generales ✨
+Te mostramos la web que te muestra que pokemon eres, las estadisticas, habilidades y aspectos generales ✨ 
+
+Visita la pagina en => https://iridescent-sorbet-774a24.netlify.app/
+
 ## Preview 
 ![](./assets/images/preview.png)
 ### Bienvenido proyecto PoketApp 
