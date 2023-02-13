@@ -1,4 +1,4 @@
-//import Chart from 'chart.js/auto';
+import Chart from 'chart.js/auto';
 import { callPoke } from './services/axios.js';
 
 const { name, sprites, types, height, id, weight, abilities, stats } =
