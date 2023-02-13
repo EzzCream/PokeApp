@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
-body{
-	background-color: #f5dc80!important; 
+body {
+	background-color: #f5dc80 !important;
 	margin: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Chewy', cursive;
+	color: #4d3725;
+	margin: 10px;
 }
 .navigation-bar {
 	display: flex;
@@ -9,12 +17,12 @@ body{
 	margin: 0;
 	padding: 1rem 6rem 1rem 6rem;
 	height: 4.5rem;
-	width: 100%;
+	width: auto;
 }
 .logo {
 	display: flex;
 	flex-direction: row;
-	width: 70%;
+	width: 100%;
 }
 .logo img {
 	width: auto;
@@ -33,6 +41,10 @@ body{
 .caja {
 	background-color: #f6bc60;
 	border-radius: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .main {
@@ -47,6 +59,7 @@ body{
 	grid-area: datos;
 	height: auto;
 	width: auto;
+	padding: 20px;
 }
 .fortalezas {
 	grid-area: fortalezas;
@@ -84,16 +97,16 @@ body{
 	text-align: center;
 	grid-template-areas:
 		'fortalezas stats'
-		'debilidades stats';
+		'fortalezas stats';
 }
-.footer{
-	display:block;
+.footer {
+	display: block;
 	background-color: #66462c;
 	margin: 0;
 	padding: 1rem 6rem 1rem 6rem;
 	height: 4.5rem;
 }
-.footer li{
+.footer li {
 	list-style-type: none;
 	display: inline;
 	padding: 0 1.5rem;
@@ -103,8 +116,8 @@ body{
 	font-weight: 400;
 	color: white;
 }
-.footer p{
-	margin: .2rem 0 0 0;
+.footer p {
+	margin: 0.2rem 0 0 0;
 	padding: 0 1.8rem;
 	float: right;
 	font-family: 'Chewy', cursive;
@@ -114,7 +127,7 @@ body{
 }
 
 /* Responsive tablets */
-@media screen and (min-width:768px) and (max-width:1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 	.logo {
 		display: flex;
 		flex-direction: row;
@@ -134,14 +147,14 @@ body{
 		letter-spacing: 0.1rem;
 		font-weight: 800;
 	}
-	.footer{
-		display:block;
+	.footer {
+		display: block;
 		background-color: #66462c;
 		margin: 0;
 		padding: 1rem 6rem 1rem 6rem;
 		height: 4.5rem;
 	}
-	.footer li{
+	.footer li {
 		list-style-type: none;
 		display: inline;
 		padding: 0 0.5rem;
@@ -151,8 +164,8 @@ body{
 		font-weight: 400;
 		color: white;
 	}
-	.footer p{
-		margin: .5rem 0;
+	.footer p {
+		margin: 0.5rem 0;
 		padding: 0 1.5rem;
 		float: right;
 		font-family: 'Chewy', cursive;
@@ -160,20 +173,25 @@ body{
 		font-weight: 400;
 		color: white;
 	}
-	
+}
+img {
+	width: 200px;
 }
 /* Responsive móviles */
-@media screen and (max-width:767px){
+@media screen and (max-width: 767px) {
 	.navigation-bar {
 		display: flex;
 		background-color: #66462c;
 		margin: 0;
-		padding: 1rem 6rem 1rem 6rem;
+		padding: 1rem 1.5rem 1rem 1.5rem;
 		height: 3.5rem;
-		width: 100%;
+		width: auto;
+	}
+	.main {
+		padding: 0;
+		margin: 2rem;
 	}
 	.logo {
-		display: flex;
 		flex-direction: row;
 		width: 100%;
 	}
@@ -181,67 +199,70 @@ body{
 		width: auto;
 		padding: 0;
 	}
+
 	.logo h2 {
 		color: white;
-		font-size: 1.3rem;
+		font-size: 1rem;
 		margin: 0;
-		padding: 1.25rem 0 1.25rem 2rem;
+		padding: 1.25rem 0 1.25rem 0.5rem;
 		font-family: 'Chewy', cursive;
 		word-spacing: 0.1rem;
 		letter-spacing: 0.1rem;
 		font-weight: 600;
 	}
-	
+	.caja {
+		width: auto;
+	}
+
 	#informacion {
 		display: grid;
-		grid-template-columns: 50% 50%;
-		grid-template-rows: repeat(2,400px);
+		grid-template-columns: 100%;
+		grid-template-rows: repeat(2, 300px);
 		row-gap: 20px;
-		column-gap: 20px;
+		column-gap: 5px;
 		align-self: center;
 		text-align: center;
-		grid-template-areas: 'pokemon pokemon'
-							 'datos datos';
+		grid-template-areas:
+			'pokemon pokemon'
+			'datos datos';
 	}
 	#estadisticas {
 		margin-top: 20px;
 		display: grid;
-		grid-template-columns: 50% 50%;
-		grid-template-rows: repeat(2,300px);
+		grid-template-columns: 100%;
+		grid-template-rows: repeat(2, 250px);
 		row-gap: 20px;
-		column-gap: 20px;
+		column-gap: 5px;
 		align-self: center;
 		text-align: center;
 		grid-template-areas:
-			'fortalezas debilidades'
+			'fortalezas fortalezas'
 			'stats stats';
 	}
-	.footer{
-		display:block;
+	.footer {
+		display: block;
 		background-color: #66462c;
 		margin: 0;
-		padding: 1rem 6rem 1rem 6rem;
+		padding: 1rem 1.5rem 1rem 1.5rem;
 		height: 4.5rem;
 	}
-	.footer li{
+	.footer li {
 		list-style-type: none;
 		display: inline;
-		padding: 0 0.5rem;
+		padding: 0 0.25rem;
 		float: right;
 		font-family: 'Chewy', cursive;
-		font-size: 1rem;
+		font-size: 0.9rem;
 		font-weight: 400;
 		color: white;
 	}
-	.footer p{
-		margin: .5rem 0;
+	.footer p {
+		margin: 0.5rem 0;
 		padding: 0 1.5rem;
 		float: right;
 		font-family: 'Chewy', cursive;
-		font-size: 1rem;
+		font-size: 0.7rem;
 		font-weight: 400;
 		color: white;
 	}
-	
-}
 }
