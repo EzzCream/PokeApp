@@ -3,6 +3,14 @@ body {
 	background-color: #f5dc80 !important;
 	margin: 0;
 }
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Chewy', cursive;
+	color: #4d3725;
+	margin: 10px;
+}
 .navigation-bar {
 	display: flex;
 	background-color: #66462c;
@@ -51,6 +59,7 @@ body {
 	grid-area: datos;
 	height: auto;
 	width: auto;
+	padding: 20px;
 }
 .fortalezas {
 	grid-area: fortalezas;
